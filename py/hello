@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 
-def hello():
-    print('hello world')
 
-hello()
+import skilstak.colors as c
+
+def hello(name):
+    '''Prints hello (your name) in cyan.'''
+    print(c.cyan + 'hello, ' + name)
+
+if __name__ =='__main__':
+    hello("chris")
+
+
