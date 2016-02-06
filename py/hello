@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
 
+import database as d
 
-import skilstak.colors as c
-
-def hello(name):
-    '''Prints hello (your name) in cyan.'''
-    print(c.cyan + 'hello, ' + name)
 
 if __name__ =='__main__':
-    hello("chris")
-
+    d.hello("chris")
+    d.vegas('chris')
 
